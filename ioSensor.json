@@ -1,0 +1,23 @@
+{
+    "@context": "https://iot.mozilla.org/schemas",
+    "@type": ["TemperatureSensor", "MultiLevelSensor"],
+    // "id": "foo.com/bar",
+    "title": "Sensirion SHT31-D",
+    "description": " A temperature and humidity sensor",
+    "properties": {
+        "temperature": {
+            "@type": "TemperatureProperty",
+            "type": "number",
+            "unit": "degree celsius",
+            "title": "Temperature",
+            "description": "Temperature in Celsius"
+        },
+        "humidity": {
+            "@type": "LevelProperty",
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100,
+            "unit": "%"
+        }
+    }
+}

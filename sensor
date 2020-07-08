@@ -1,0 +1,8 @@
+parse command line options
+timeout
+min / max temp
+
+logic
+
+for every 10 seconds, print to CSV->
+0/1 for if on or not, temp, humidity
